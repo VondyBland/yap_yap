@@ -4,6 +4,9 @@ import java.util.Scanner;
 public class Test {
     public static void main(String[] args) {
         System.out.println(args.length);
+        if (args.length >0) {
+            System.out.println(args[0]);
+        }
         int n = 2;
         int m = n;
         // Примитивные: целевые вещественные логические символьные
